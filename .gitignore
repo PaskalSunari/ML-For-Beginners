@@ -364,3 +364,4 @@ ML-For-Beginners.Rproj
 .env
 .venv
 venv6-NLP/data/Hotel_Reviews.csv 6-NLP/data/Hotel_Reviews_Cleaned.csv 6-NLP/data/Hotel_Reviews_Filtered.csv 6-NLP/data/Hotel_Reviews_NLP.csv
+6-NLP/data/*.csv
