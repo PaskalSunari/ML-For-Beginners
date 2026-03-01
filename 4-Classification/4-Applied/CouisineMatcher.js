@@ -1,5 +1,4 @@
-// Test alert message to verify JavaScript is working
-alert('JavaScript is working! CuisineMatcher.js loaded successfully.');
+// Handles ingredient selection and cuisine prediction using an ONNX model.
 
 const ingredients = Array(380).fill(0);
     
@@ -37,7 +36,7 @@ async function startInference() {
         alert('You can enjoy ' + results.label.data[0] + ' cuisine today!')
 
     } catch (e) {
-        console.log(`failed to inference ONNX model`);
+        console.log(`failed to run inference on ONNX model`);
         console.error(e);
     }
 }
