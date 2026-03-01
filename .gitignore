@@ -364,6 +364,3 @@ ML-For-Beginners.Rproj
 .env
 .venv
 venv
-# Ignore NLP datasets
-6-NLP/data/
-*.csv
