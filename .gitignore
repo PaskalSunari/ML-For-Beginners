@@ -366,3 +366,4 @@ ML-For-Beginners.Rproj
 venv
 
 6-NLP/data/Hotel_Reviews.csv
+6-NLP/data/*.csv
